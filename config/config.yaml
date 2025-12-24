@@ -1,0 +1,17 @@
+llm:
+  model_name: gemini-2.5-flash
+  temperature: 0.7
+  streaming: true
+  max_tokens: 2000
+
+text_splitter:
+  chunk_size: 1000
+  chunk_overlap: 200
+  add_start_index: true
+
+embedding:
+  model_name: text-embedding-004
+  batch_size: 100
+  chunk_size: 1000
+  chunk_overlap: 200
+  add_start_index: true
