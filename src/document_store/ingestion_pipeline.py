@@ -9,7 +9,7 @@ from document_store.document_indexing import indexing
 from model.embedding_model import EmbeddingModel
 from dotenv import load_dotenv
 
-def main():
+def ingestion_pipeline():
     try:
         # Load environment variables
         load_dotenv("/Users/kittnguyen/Documents/education-rag/.env")
@@ -47,4 +47,4 @@ def main():
         return None
 
 if __name__ == "__main__":
-    main()
+    ingestion_pipeline()

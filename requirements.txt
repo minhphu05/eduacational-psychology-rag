@@ -15,4 +15,5 @@ langgraph-sdk
 langsmith
 psycopg2
 PyYAML
+streamlit==1.52.2
 # brew install libmagic poppler tesseract
